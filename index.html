@@ -5,22 +5,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Путешествия по России</title>
-  <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="./vendor/normalize.css">
+  <link rel="stylesheet" href="./pages/index.css">
 </head>
 
 <body>
   <div class="page">
 
     <header class="header">
-      <img class="header__logo" src="./sprint-3-images/header-logo.svg" alt="Карта россии">
+      <img class="header__logo" src="./images/header-logo.svg" alt="Карта россии">
       <div class="header__lang-links">
         <a class="header__lang-link" href="#" target="_blank">Ru</a>
         <a class="header__lang-link" href="#" target="_blank">En</a>
       </div>
     </header>
 
-    <main class="content">
+    <main>
 
       <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
@@ -37,14 +36,14 @@
           красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова —
           смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч
           километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.
-          </aritcle>
-          <ul class="intro__list">
-            <li class="list__item">Часовых поясов <span class="list__value">11</span></li>
-            <li class="list__item">Объектов природного наследия ЮНЕСКО <span class="list__value">12</span></li>
-            <li class="list__item">Объектов культурного наследия ЮНЕСКО <span class="list__value">16</span></li>
-            <li class="list__item">Природных заповедников <span class="list__value">105</span></li>
-            <li class="list__item">Аэропортов <span class="list__value">241</span></li>
-          </ul>
+        </article>
+        <ul class="intro__list">
+          <li class="intro__item">Часовых поясов <span class="intro__value">11</span></li>
+          <li class="intro__item">Объектов природного наследия ЮНЕСКО <span class="intro__value">12</span></li>
+          <li class="intro__item">Объектов культурного наследия ЮНЕСКО <span class="intro__value">16</span></li>
+          <li class="intro__item">Природных заповедников <span class="intro__value">105</span></li>
+          <li class="intro__item">Аэропортов <span class="intro__value">241</span></li>
+        </ul>
       </section>
 
       <section class="photo-grid">
@@ -66,7 +65,7 @@
 
         <article class="place">
           <h2 class="place__title">Куршская коса</h2>
-          <img class="place__image" src="./sprint-3-images/place-kosa.jpg" alt="Куршская коса">
+          <img class="place__image" src="./images/place-kosa.jpg" alt="Куршская коса">
           <div class="place__website">
             <h3 class="place__url-heading">URL</h3>
             <a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
@@ -85,7 +84,7 @@
 
         <article class="place">
           <h2 class="place__title">Кольский</h2>
-          <img class="place__image" src="./sprint-3-images/place-kolsky.jpg" alt="Кольский">
+          <img class="place__image" src="./images/place-kolsky.jpg" alt="Кольский">
           <div class="place__website">
             <h3 class="place__url-heading">URL</h3>
             <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
@@ -105,7 +104,7 @@
 
         <article class="place">
           <h2 class="place__title">Алтай</h2>
-          <img class="place__image" src="./sprint-3-images/place-altai.jpg" alt="Алтай">
+          <img class="place__image" src="./images/place-altai.jpg" alt="Алтай">
           <div class="place__website">
             <h3 class="place__url-heading">URL</h3>
             <a class="place__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
@@ -125,7 +124,7 @@
 
         <article class="place">
           <h2 class="place__title">Зимний Байкал</h2>
-          <img class="place__image" src="./sprint-3-images/place-winter-baikal.jpg" alt="Зимний Байкал">
+          <img class="place__image" src="./images/place-winter-baikal.jpg" alt="Зимний Байкал">
           <div class="place__website">
             <h3 class="place__url-heading">URL</h3>
             <a class="place__link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
@@ -145,7 +144,7 @@
 
         <article class="place">
           <h2 class="place__title">Карелия</h2>
-          <img class="place__image" src="./sprint-3-images/place-karelia.jpg" alt="Карелия">
+          <img class="place__image" src="./images/place-karelia.jpg" alt="Карелия">
           <div class="place__website">
             <h3 class="place__url-heading">URL</h3>
             <a class="place__link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
@@ -164,11 +163,9 @@
 
       <section class="cover">
         <a class="cover__link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="blank"></a>
-        <h2 class="cover__title">До Байкала «на&nbspсобаках»</h2>
+        <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
         <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
           электричках.</p>
-        <div class="cover__overlay"></div>
-        <div class="cover__background"></div>
       </section>
 
     </main>
