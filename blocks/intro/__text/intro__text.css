@@ -8,7 +8,7 @@
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 750px) {
   .intro__text {
     margin: 40px 0 34px;
   }
