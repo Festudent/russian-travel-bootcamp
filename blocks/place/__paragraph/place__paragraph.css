@@ -1,7 +1,7 @@
 .place__paragraph {
   margin: 0 0 26px;
   padding: 0;
-  min-width: 484px;
+  max-width: 484px;
   font-family: "inter", sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -12,22 +12,22 @@
 @media screen and (max-width: 1279px) {
   .place__paragraph {
     margin: 0 48px 27px 0;
-    min-width: 456px;
+    max-width: 456px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .place__paragraph {
     margin: 0 0 25px;
-    min-width: 352px;
+    max-width: 352px;
     font-size: 16px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .place__paragraph {
-    margin: 0 16px 25px;
-    min-width: 288px;
+    margin: 0 auto 25px;
+    max-width: 288px;
   }
 }
 
